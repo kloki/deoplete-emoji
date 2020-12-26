@@ -1,4 +1,6 @@
 from .base import Base
+
+load_external_module(__file__, "sources")
 from .emoji import EMOJI_LIST
 
 
