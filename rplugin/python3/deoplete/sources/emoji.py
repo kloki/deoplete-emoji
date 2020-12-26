@@ -1,7 +1,8 @@
 from .base import Base
+from deoplete.util import load_external_module
 
 load_external_module(__file__, "sources")
-from .emoji import EMOJI_LIST
+from emoji import EMOJI_LIST
 
 
 class Source(Base):
